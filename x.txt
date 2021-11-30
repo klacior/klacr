@@ -1,0 +1,256 @@
+@echo off
+color 0a
+title Milionerzy by klacior and Patryk Opara
+
+echo #
+echo #
+echo #
+echo #
+echo #
+echo #
+echo #
+echo #
+echo #                                                                        Welcome
+ping localhost-n 1 >nul
+echo #                                                                In The Game: Milionerzy 
+ping localhost-n 1 >nul
+echo #                                                               Gra zostala stworzona przez:
+ping localhost-n 1 >nul
+echo #                                                              Jakuba Klatka i Patryka Opara
+ping localhost-n 1 >nul
+cls
+color 09
+echo #
+echo #
+echo #
+echo #
+echo #
+echo #
+echo #
+echo #
+echo #                                                                        Welcome
+ping localhost-n 1 >nul
+echo #                                                                In The Game: Milionerzy 
+ping localhost-n 1 >nul
+echo #                                                               Gra zostala stworzona przez:
+ping localhost-n 1 >nul
+echo #                                                              Jakuba Klatka i Patryka Opara
+ping localhost-n 1 >nul
+cls
+:Lobby
+cls
+echo                                                     1. Start 
+echo                                                     2. Opis 
+echo                                                     3. Exit
+set/p "y=>> "
+if %y% == 1 goto y1
+ 
+if %y% == 2 goto y2
+
+if %y% == 3 goto y3
+
+:y1 
+cls
+echo Witaj w milionerach 
+echo huber urubański z tej strony
+echo powiedz jak sie nazywasz            
+echo kliknij enter
+pause>nul
+goto klaxklax1
+
+
+
+
+:klax1
+cls
+echo                                                                                                                                                                      #
+echo                                                                                                                                                                      #                                                                                 
+echo                                                                                                                                                                      #
+echo                                                       ##################################################################################                             #
+echo                                                       #                            Najwiencej glukozy zuzywa                           #                             #
+echo                                                       ##################################################################################                             #
+echo                                                                                                                                                                      #
+echo                                                                                                                                                                      #
+echo                                                                                                                                                                      #
+echo                                  ################################                                                           ################################         #
+echo                                  # A.watroba                    #                                                           # B.muzg                       #         #
+echo                                  ################################                                                           ################################         #                           
+echo                                                                                                                                                                      #
+echo                                  ################################                                                           ################################         # 
+echo                                  # C.trzustka                   #                                                           # D.serce                      #         #
+echo                                  ################################                                                           ################################         #
+set/p "pytanie=>> "
+if %pytanie% == B goto brawo1 
+if not %pytanie% == B goto Koniec
+
+:brawo1 
+echo ########################################
+echo #                                      #
+echo #                                      #
+echo #                                      #
+echo #            BRAWO 500 ZL              #
+echo #                                      #
+echo #                                      #
+echo #                                      #
+echo ########################################
+
+echo kliknij enter aby przejsc dalej
+pause>nul
+goto klaxklax2
+
+:klaxklax1
+set /a losowa=(%random% %%10)
+if %losowa%==0 goto klax1
+if %losowa%==1 goto klax2
+if %losowa%==2 goto klax3
+if %losowa%==3 goto klax4
+if %losowa%==4 goto klax5
+if %losowa%==5 goto klax6
+if %losowa%==6 goto klax1 
+if %losowa%==7 goto klax1
+if %losowa%==8 goto klax1
+if %losowa%==9 goto klax1
+if %losowa%==10 goto klax1
+
+
+:klax2
+cls
+echo                                                                                                                                                                      #
+echo                                                                                                                                                                      #                                                                                 
+echo                                                                                                                                                                      #
+echo                                                       ##################################################################################                             #
+echo                                                       #Co rozcionga sie na terytorium jedenastu panstw?                                 #                             #
+echo                                                       ##################################################################################                             #
+echo                                                                                                                                                                      #
+echo                                                                                                                                                                      #
+echo                                                                                                                                                                      #
+echo                                  ################################                                                           ################################         #
+echo                                  # A.Kaukaz                     #                                                           # B.Jangcy                     #         #
+echo                                  ################################                                                           ################################         #                           
+echo                                                                                                                                                                      #
+echo                                  ################################                                                           ################################         # 
+echo                                  # C.Niasa                      #                                                           # D.Sahara                     #         #
+echo                                  ################################                                                           ################################         #
+set/p "pytanie=>> "
+if %pytanie% == D goto brawo1 
+if not %pytanie% == D goto Koniec
+
+
+
+
+
+
+
+
+:klax3
+cls
+echo                                                                                                                                                                      #
+echo                                                                                                                                                                      #                                                                                 
+echo                                                                                                                                                                      #
+echo                                                       ##################################################################################                             #
+echo                                                       #Kiedy rozpoczelo sie drugie tysionc lecie                                       #                             #
+echo                                                       ##################################################################################                             #
+echo                                                                                                                                                                      #
+echo                                                                                                                                                                      #
+echo                                                                                                                                                                      #
+echo                                  ################################                                                           ################################         #
+echo                                  # A.    1 stycznia 1000 r.     #                                                           # B. 1 stycznia 2001 r.        #         #
+echo                                  ################################                                                           ################################         #                           
+echo                                                                                                                                                                      #
+echo                                  ################################                                                           ################################         # 
+echo                                  # C.    1 stycznia 2000 r.     #                                                           # D. 1 stycznia 1001 r.        #         #
+echo                                  ################################                                                           ################################         #
+set/p "pytanie=>> "
+if %pytanie% == D goto brawo1 
+if not %pytanie% == D goto Koniec
+
+
+
+
+
+:klax4
+cls
+echo                                                                                                                                                                      #
+echo                                                                                                                                                                      #                                                                                 
+echo                                                                                                                                                                      #
+echo                                                       ##################################################################################                             #
+echo                                                       #ktury z metali morzna bez trudu kroic norzem kuchennym                          #                             #
+echo                                                       ##################################################################################                             #
+echo                                                                                                                                                                      #
+echo                                                                                                                                                                      #
+echo                                                                                                                                                                      #
+echo                                  ################################                                                           ################################         #
+echo                                  # A. sud                       #                                                           # B. chrom                     #         #
+echo                                  ################################                                                           ################################         #                           
+echo                                                                                                                                                                      #
+echo                                  ################################                                                           ################################         # 
+echo                                  # C. srebro                    #                                                           # D. bizmut                    #         #
+echo                                  ################################                                                           ################################         #
+set/p "pytanie=>> "
+if %pytanie% == A goto brawo1 
+if not %pytanie% == A goto Koniec
+
+
+:klax5
+cls
+echo                                                                                                                                                                      #
+echo                                                                                                                                                                      #                                                                                 
+echo                                                                                                                                                                      #
+echo                                                       ##################################################################################                             #
+echo                                                       # jaki nabial w znanym powiedzeniu towarzyszy sprawom , kture idom gladko        #                             #
+echo                                                       ##################################################################################                             #
+echo                                                                                                                                                                      #
+echo                                                                                                                                                                      #
+echo                                                                                                                                                                      #
+echo                                  ################################                                                           ################################         #
+echo                                  # A. twarozek                  #                                                           # B. maslanka                  #         #
+echo                                  ################################                                                           ################################         #                           
+echo                                                                                                                                                                      #
+echo                                  ################################                                                           ################################         # 
+echo                                  # C. maslo                     #                                                           # D. ser                       #         #
+echo                                  ################################                                                           ################################         #
+set/p "pytanie=>> "
+if %pytanie% == C goto brawo1 
+if not %pytanie% == C goto Koniec
+
+:klax6
+cls
+echo                                                                                                                                                                      #
+echo                                                                                                                                                                      #                                                                                 
+echo                                                                                                                                                                      #
+echo                                                       ##################################################################################                             #
+echo                                                       # Przekazane polskiemu wojsku samoloty hercules to typowe samoloty               #                             #
+echo                                                       ##################################################################################                             #
+echo                                                                                                                                                                      #
+echo                                                                                                                                                                      #
+echo                                                                                                                                                                      #
+echo                                  ################################                                                           ################################         #
+echo                                  # A. mysliwskie                #                                                           # B. zwiadowcze                #         #
+echo                                  ################################                                                           ################################         #                           
+echo                                                                                                                                                                      #
+echo                                  ################################                                                           ################################         # 
+echo                                  # C. transportowe              #                                                           # D. bombowe                   #         #
+echo                                  ################################                                                           ################################         #
+set/p "pytanie=>> "
+if %pytanie% == C goto brawo1 
+if not %pytanie% == C goto Koniec
+
+
+:Koniec 
+cls
+echo przegrales 
+pause>nul
+goto lobby
+
+
+
+
+
+:y2
+cls
+echo  Opis 
+pause>nul
+goto Lobby
+
+:y3
+Exit
